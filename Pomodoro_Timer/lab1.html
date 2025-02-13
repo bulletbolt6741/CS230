@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="//fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+</head>
+<body>
+    
+    
+    
+
+    <div class="timer-container">
+        <svg class="timer-svg" height="150" width="500" xmlns="http://www.w3.org/2000/svg">
+            <line x1="300" y1="-3000" x2="90" y2="100" style="stroke:green;stroke-width:2" />
+          </svg>
+        <svg class="timer-svg" height="200" width="200" xmlns="http://www.w3.org/2000/svg">
+            <circle r="40%" cx="50%" cy="50%" fill="red" />
+        </svg>
+        
+        <p id="timer" class="timers">25:00</p>
+    </div>
+    
+    
+    <div class="container">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="pause">Pause</button>
+    </div>
+    
+    <script src="timer.js"></script>
+</body>
+</html>
+
